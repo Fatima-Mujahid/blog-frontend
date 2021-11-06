@@ -1,0 +1,57 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 6rem 0 6rem;*/
+  padding: 1.15rem 8rem;
+  background-color: white;
+  color: #232c57;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.nav__logo {
+  /* font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Exo', sans-serif; */
+  font-family: 'Limelight', cursive;
+  /* font-family: 'Luckiest Guy', cursive;
+  font-family: 'Sarpanch', sans-serif; */
+  font-size: 2rem;
+}
+
+.nav__items a {
+  font-size: 0.9rem;
+  color: #232c57;
+  text-decoration: none;
+}
+
+.nav__items a:hover {
+  color: rgba(35, 44, 87, 0.8);
+}
+
+.nav__items a:active,
+.nav__items a:focus {
+  border-bottom: 2px solid #232c57;
+  padding-bottom: 0.5rem;
+}
+
+.nav__items button {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 0.1rem;
+  font-size: 0.9rem;
+  color: #2d9ff0;
+  border: 1px rgba(45, 159, 240, 0.5) solid;
+  padding: 0.6rem 1.25rem;
+  margin-left: 2rem;
+}
+
+.nav__items button:hover {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: #2d9ff0;
+  color: white;
+  transition: all 0.3s;
+}

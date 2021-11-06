@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+.main__blogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 8rem;
+}
+
+.main__moreBlogs {
+  background-color: #eff1fe;
+}
+
+.main__heading {
+  color: #232c57;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 5rem 8rem 4rem 8rem;
+}

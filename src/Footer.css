@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+  background-color: #1a234e;
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  font-family: 'Limelight', cursive;
+  font-size: 2rem;
+  color: white;
+}
+.footer__copyright {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 1.5rem;
+}
+
+.footer__socialHandles a {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__socialHandles a:hover,
+.footer__socialHandles a:focus,
+.footer__socialHandles a:active {
+  color: white;
+}

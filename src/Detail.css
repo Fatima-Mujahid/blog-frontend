@@ -1,0 +1,17 @@
+.detail__blogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 8rem;
+}
+
+.detail__moreBlogs {
+  background-color: #eff1fe;
+}
+
+.detail__heading {
+  color: #232c57;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 5rem 8rem 4rem 8rem;
+}

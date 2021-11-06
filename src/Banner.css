@@ -1,0 +1,92 @@
+.banner {
+  display: flex;
+  /* height: 125vh; */
+  height: 52rem;
+  background-color: #1a234e;
+  margin-bottom: -4.5rem;
+  color: white;
+}
+
+.banner__image {
+  margin-top: 8rem;
+  width: 31%;
+  height: 33rem;
+  object-fit: cover;
+}
+
+.banner__contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 8rem;
+  width: 42%;
+  height: 33rem;
+  margin-left: 4rem;
+}
+
+.banner__category {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.banner__title {
+  font-size: 2.25rem;
+  letter-spacing: 0.75px;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
+
+.banner__body {
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  margin-bottom: 2.25rem;
+}
+
+.banner__author {
+  display: flex;
+  align-items: center;
+}
+
+.banner__authorImage {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.banner__authorName {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.banner__date {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.banner__arrows {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 8rem;
+  margin-top: 8rem;
+  width: 27%;
+  height: 33rem;
+}
+
+.banner__arrow {
+  font-size: 1.4rem;
+  padding: 0.9rem;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
